@@ -3,12 +3,12 @@
 Práce se zabývá vytvořením webových stránek ...
 
 Nezapomenu upravit odkazy a "aktivovat" GitHub Pages... 
-[Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/l3-web-site-Yechenzie)
+[Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/2022-l3-web-site-Yechenzie)
 
 [Návrh webové stránky ve Figmě](https://www.figma.com/)
 
 ## ToDo
-- [x] Vytvořit repozitář projektu
+- [x] Vytvořit repozitář projekt
 - [ ] Vytvořit Figma projekt
 - [x] Aktivovat GitHub Pages
 - [x] Upravit README.md (aktualizace odkazů na Figmu a Web)
