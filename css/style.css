@@ -145,6 +145,28 @@ a{
 div.container{
     padding: 2rem;
 }
+.mainstrana{
+    margin: 0 auto;
+    display: flex;
+    max-width: 70%;
+    margin-top: 20px;
+    background-color: var(--deeppurple);
+    background: linear-gradient(to top,var(--deeppurple),black);
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.logomainstrana{
+    max-height: 60px;
+    min-height: 25px;
+}
+.textmainstrana{
+    font-size: large;
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 @media(max-width:768px){
     .hamburger{
         display:block;

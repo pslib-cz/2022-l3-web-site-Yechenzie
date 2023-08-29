@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lightbox.css">
-    <title>Můj Web - Home</title>
+    <title>Můj Web - Galerie</title>
 </head>
 <body class="background">
     <header>
@@ -35,28 +35,19 @@
     </header>
     <main>
         <div class="mainstrana">
-            <img src="./images/logo.png" class="logomainstrana"><p class="textmainstrana">Toto je můj web. Zde na hlavní stránce naleznete Slider společně s navigací s odkazy.</p>
+            <img src="./images/logo.png" class="logomainstrana"><p class="textmainstrana">Toto je galerie mého webu. Zde na stránce galerie naleznete celou galerii spolu s implementovanou Lightgallery.</p>
         </div>
-        <section class="container">
-            <div class="slider-wrapper">
-                    <div class="slider">
-                        <img id="slide-1" src="images/prplflwrs3.jpg" alt="purple flowers number 1">
-                        <img id="slide-2" src="images/prplflwrs.jpg" alt="purple flowers number 2">
-                        <img id="slide-3" src="images/prplflwrs2.jpg" alt="purple flowers number 3">
-                        <img id="slide-4" src="images/prplflwrs4.jpg" alt="purple flowers number 4">
-                        <img id="slide-5" src="images/prplhands.jpg" alt="purple, black and white hands ">
-                        <img id="slide-6" src="images/prpleye.jpg" alt="cracked black, purple and white eye">
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                        <a href="#slide-4"></a>
-                        <a href="#slide-5"></a>
-                        <a href="#slide-6"></a>
-                    </div>
-            </div>
         </section>
+        <div class="container">
+            <div class="gallery">
+                <a href="images/prplflwrs3.jpg" data-lightbox="obrazky" data-title="Kytky"><img src="images/prplflwrs3.jpg" alt="purple flowers number 1"></a>
+                <a href="images/prplflwrs.jpg" data-lightbox="obrazky" data-title="Kytky 2"><img src="images/prplflwrs.jpg" alt="purple flowers number 2"></a>
+                <a href="images/prplflwrs2.jpg" data-lightbox="obrazky" data-title="Kytky 3"><img src="images/prplflwrs2.jpg" alt="purple flowers number 3"></a>
+                <a href="images/prplflwrs4.jpg" data-lightbox="obrazky" data-title="Kytky 4"><img src="images/prplflwrs4.jpg" alt="purple flowers number 4"></a>
+                <a href="images/prplhands.jpg" data-lightbox="obrazky" data-title="Ruce"><img src="images/prplhands.jpg" alt="purple, black and white hands "></a>
+                <a href="images/prpleye.jpg" data-lightbox="obrazky" data-title="Oko"><img src="images/prpleye.jpg" alt="cracked black purple and white eye"></a>
+            </div>
+        </div>
     </main>
     <script src="javascript/script.js"></script>
     <script src="javascript/lightbox-plus-jquery.js"></script>
